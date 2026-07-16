@@ -1,0 +1,255 @@
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 20px;
+    background-color: #ffdab9 ;
+    line-height: 22px;
+}
+
+header h1 {
+    line-height: 40px;
+}
+
+.intro {
+    text-align: center;
+    max-width: 600px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 19px;
+    line-height: 25px;
+}
+
+.malarbok-bild img {
+    width: 250px;
+    height: 240px;
+    margin: 70px;
+}
+
+.malarbok-bild p {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 19px;
+    line-height: 25px;
+}
+
+.malarbok-topp {
+    margin-top: 50px;
+    
+}
+
+
+.grid-item {
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px;
+    line-height: 20px;
+    box-sizing: border-box; 
+    font-size: 15px;
+    margin: 15px;
+    background-color: #e4ffde;
+    padding: 20px;
+    width: 300px;
+    height: 450px;
+}
+.grid-item2 {
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px;
+    line-height: 20px;
+    box-sizing: border-box;
+    font-size: 15px;
+    margin: 15px;
+    padding: 20px;
+    background-color: #ffc0cb;
+    width: 300px;
+    height: 450px;
+}
+    
+.grid-item3 {
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px;
+    line-height: 20px;
+    box-sizing: border-box;
+    font-size: 15px;
+    margin: 15px;
+    padding: 20px;
+    background-color:#ffffba;
+    width: 300px;
+    height: 450px;
+}
+
+.grid-item p, .grid-item2 p, .grid-item3 p {
+    font-size: medium;
+    line-height: 1.2;
+    color: black;
+}
+
+
+
+
+button {
+    width: 60px;
+    height: 30px;
+    font-size: large;
+    color: black;
+    border-radius: 12px;
+    margin: 30px auto;
+    display: block;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #bdb2ff;
+}
+
+button:active {
+    background: #e8aeff;
+}
+
+
+.bilder {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:8px;
+}
+
+.bilder img {
+    width: 240px;
+    height: 200px;
+    object-fit: cover;
+}
+
+body {
+    background-color: #dcd0ea;
+}
+
+
+.carousel-text {
+    text-align: center;
+    max-width: 600px;
+    margin-top: 120px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 19px;
+    line-height: 25px;
+}
+
+#image-carousel {
+    max-width: 800px;
+    margin: 70px auto;
+    padding: 0 50px;
+}
+.splide__slide img {
+    width: 300px;
+    height: 300px;
+    margin: 25px;
+    
+    }
+.splide__slide div {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.splide__slide {
+    padding-bottom: 25px;
+}
+
+.splide__arrow--next {
+    margin-right: 25px;
+}
+
+#image-carousel .splide__arrow {
+    background: #fef0cd;
+}
+
+
+
+footer {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    padding: 20px;
+    
+    background-color: #ffdab9 ;
+}
+    
+.footer-lists {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: medium;
+    gap: 15px;
+    
+}
+
+.lista {
+    font-size: medium;
+    margin-right: 50px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+h3 {
+    text-align: center;
+}
+
+
+a {
+    color: black;
+    text-decoration: none;  
+    
+}
+
+a:hover {
+    background-color: #e8aeff;
+}
+
+a:active {
+    background-color:#e4ffde;
+
+}
+
+.lista ul li {
+    margin-bottom: 6px;
+}
+    
+
+    
+
+      
+    
+
+
+@media (max-width: 768px) {
+    
+   .bilder {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 0 45px;
+   }
+
+
+}
+
+
+
+
+    
+
+    
+    
+    
+    
+    
+    
